@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE repositories SYSTEM "/dtd/repositories.dtd">
+<repositories xmlns="" version="1.0">
+	<repo priority="50" quality="experimental" status="unofficial">
+	  <name>iomonad-overlay</name>
+		<description lang="en">Gentoo overlay for special people.</description>
+		<homepage>https://github.com/iomonad/iomonad-overlay</homepage>
+		<owner type="person">
+			<email>me@trosa.io</email>
+			<name>Clement Trosa</name>
+		</owner>
+		<source type="git">git@github.com:iomonad/iomonad-overlay.git</source>
+		<feed>https://github.com/iomonad/iomonad-overlay/commits/master.atom</feed>
+	</repo>
+</repositories>
