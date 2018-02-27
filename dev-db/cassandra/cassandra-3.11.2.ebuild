@@ -1,7 +1,7 @@
 # Copyright 1999-2018 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI=5
+EAPI=4
 
 DESCRIPTION="A highly scalable second-generation distributed database"
 HOMEPAGE="https://cassandra.apache.org/"
@@ -46,7 +46,6 @@ src_install() {
 		fperms 755 ${INSTALL_DIR}/${i}
 		make_wrapper "$(basename ${i})-${SLOT}" "${INSTALL_DIR}/${i}"
 	done
-
 
 	keepdir /var/lib/cassandra/${SLOT}
 	fowners -R cassandra:cassandra ${INSTALL_DIR}
