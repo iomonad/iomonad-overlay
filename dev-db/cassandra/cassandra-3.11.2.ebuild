@@ -48,8 +48,8 @@ src_install() {
 	done
 
 	keepdir /var/lib/cassandra/${SLOT}
-	fowners -R cassandra:cassandra ${INSTALL_DIR}
-	fowners -R cassandra:cassandra /var/lib/cassandra
+#	fowners -R cassandra:cassandra ${INSTALL_DIR}
+#	fowners -R cassandra:cassandra /var/lib/cassandra
 
 	if use systemd; then
 		sed -e "s/{SLOT}/${SLOT}/g" -e "s/{PV}/${PV}/g" "${FILESDIR}/cassandra.service" > "${T}/cassandra-${SLOT}.service" || die
