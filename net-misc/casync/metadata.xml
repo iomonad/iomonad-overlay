@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+  <maintainer type="person">
+	<email>me@trosa.io</email>
+	<name>Clement Trosa</name>
+  </maintainer>
+  <longdescription lang="en">
+	A tool for distributing file system images.
+  </longdescription>
+  <use>
+	<flag name='fuse'>fuse support</flag>
+  </use>
+  <upstream>
+	<remote-id type="github">systemd/casync</remote-id>
+  </upstream>
+</pkgmetadata>
