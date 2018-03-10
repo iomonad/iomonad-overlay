@@ -3,7 +3,7 @@
 <repositories xmlns="" version="1.0">
 	<repo priority="50" quality="experimental" status="unofficial">
 	  <name>iomonad-overlay</name>
-		<description lang="en">Gentoo overlay for special people.</description>
+		<description lang="en">iomonad's portage overlay for Gentoo, and portage based systems.</description>
 		<homepage>https://github.com/iomonad/iomonad-overlay</homepage>
 		<owner type="person">
 			<email>me@trosa.io</email>
