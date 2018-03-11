@@ -3,12 +3,14 @@
 
 EAPI=4
 
+inherit eutils user versionator
+
 DESCRIPTION="A highly scalable second-generation distributed database"
 HOMEPAGE="https://cassandra.apache.org/"
 SRC_URI="mirror://apache/cassandra/${PV}/apache-cassandra-${PV}-bin.tar.gz"
 
 LICENSE="Apache-2.0"
-SLOT="0"
+SLOT="$(get_version_component_range 1-2)"
 KEYWORDS="~x86 ~amd64"
 
 DEPEND="
