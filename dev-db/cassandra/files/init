@@ -1,7 +1,7 @@
 #!/sbin/runscript
 
-NAME=cassandra-{SLOT}
-DESC="Apache Cassandra v{PV}"
+NAME=cassandra-3.11.2
+DESC="Apache Cassandra v 3.11.2"
 PIDFILE=/var/run/$NAME/$NAME.pid
 
 _CASSANDRA_DIR="/opt/${NAME}"
