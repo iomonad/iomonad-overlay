@@ -5,15 +5,15 @@ EAPI=6
 
 PYTHON_COMPAT=( python3_{4,5,6} )
 
-inherit cmake-utils python-r1
+inherit cmake-utils python-r1 versionator git-r3 eutils
 
 DESCRIPTION="A lightweight C++11 Distributed Hash Table implementation"
 HOMEPAGE="https://github.com/savoirfairelinux/opendht/blob/master/README.md"
-SRC_URI="https://github.com/savoirfairelinux/opendht/archive/${PV}.tar.gz"
+EGIT_REPO_URI="git://github.com/savoirfairelinux/${PN}.git"
 
 LICENSE="GPL-3"
 SLOT="0"
-IUSE="doc python static-libs"
+IUSE="python static-libs"
 
 DEPEND=">=dev-libs/msgpack-2.0
 	>=net-libs/gnutls-3.3
@@ -30,6 +30,6 @@ src_configure() {
 }
 
 src_install() {
-	use !doc && rm README.md
+	rm README.md
 	cmake-utils_src_install
 }
