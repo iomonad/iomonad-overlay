@@ -21,6 +21,7 @@ DEPEND="
 		>=dev-libs/openssl-1.0:0=
 		>=net-misc/curl-7.32.0
 		sys-apps/acl
+		dev-python/sphinx
 		fuse? ( >=sys-fs/fuse-2.6:0= )
 		sys-libs/zlib
 "
