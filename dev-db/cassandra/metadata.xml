@@ -2,13 +2,13 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
   <maintainer type="project">
-    <email>me@trosa.io</email>
-    <name>Clement Trosa</name>
+	<email>me@trosa.io</email>
+	<name>Clement Trosa</name>
   </maintainer>
   <longdescription>
 	Apache Cassandra is a free and open-source distributed NoSQL
 	database management system designed to handle large amounts
-	of data across many commodity servers, providing high 
+	of data across many commodity servers, providing high
 	availability with no single point of failure.
   </longdescription>
 </pkgmetadata>
