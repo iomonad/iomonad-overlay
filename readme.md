@@ -2,6 +2,9 @@
   <a href="https://travis-ci.com/iomonad/iomonad-overlay" title="Build status">
      <img src="https://www.travis-ci.org/iomonad/iomonad-overlay.svg?branch=master">
   </a>
+    <a href="https://travis-ci.com/iomonad/iomonad-overlay" title="Count">
+     <img src="http://hits.dwyl.io/iomonad/iomonad-overlay.svg">
+  </a>
 </h1>
 
 <a href="https://github.com/iomonad/iomonad-overlay">
