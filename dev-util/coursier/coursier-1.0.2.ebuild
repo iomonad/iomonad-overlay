@@ -9,6 +9,7 @@ SRC_URI="https://github.com/coursier/coursier/archive/v${PV}.zip -> coursier-${P
 
 LICENSE="Apache-2.0"
 SLOT="0"
+KEYWORDS="~x86 ~amd64"
 
 DEPEND="
 	>=virtual/jdk-1.5

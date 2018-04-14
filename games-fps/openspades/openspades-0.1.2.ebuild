@@ -1,4 +1,4 @@
-# Copyright 1999-2016 Gentoo Foundation
+# Copyright 1999-2018 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=5
@@ -15,8 +15,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 DEPEND="
-	>=sys-devel/gcc-4.8
-	>=media-libs/libsdl2-2.0.2
+	sys-devel/gcc
+	media-libs/libsdl2
 	media-libs/sdl2-image
 	net-misc/curl
 	virtual/opengl
@@ -34,7 +34,6 @@ src_prepare() {
 	# disable downloading additional files during compilation
 	echo -e "#!/bin/sh\nexit 0" > "${S}"/Resources/downloadpak.sh || die
 }
-
 
 src_configure() {
 	local ver=4.8.0
