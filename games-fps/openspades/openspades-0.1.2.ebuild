@@ -7,7 +7,7 @@ EAPI=5
 inherit cmake-utils versionator toolchain-funcs
 
 DESCRIPTION="OpenSpades is a clone of Voxlap Ace of Spades 0.75"
-HOMEPAGE="http://github.com/yvt/openspades"
+HOMEPAGE="https://github.com/yvt/openspades"
 SRC_URI="https://github.com/yvt/openspades/archive/v${PV}.tar.gz
 		https://github.com/yvt/openspades-paks/releases/download/r33/OpenSpadesDevPackage-r33.zip"
 IUSE=""
@@ -21,6 +21,11 @@ DEPEND="
 	media-libs/sdl2-image
 	net-misc/curl
 	virtual/opengl
+	media-libs/opus
+	media-libs/opusfile
+	app-arch/zip
+	media-libs/glew
+	media-libs/sdl2-image
 	x11-libs/fltk
 	"
 
