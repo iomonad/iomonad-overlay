@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+  <maintainer type="person">
+	<email>me@trosa.io</email>
+	<description>Clement Trosa</description>
+  </maintainer>
+  <longdescription>Darkhttpd is a simple, fast HTTP 1.1 web server
+  for static content. It does not support PHP or CGI etc but is designed
+  to serve static content, which it does very well.
+  </longdescription>
+  <use>
+  </use>
+</pkgmetadata>
