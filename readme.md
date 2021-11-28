@@ -10,3 +10,10 @@
 </a><br>
 
   > My overlay for custom packages
+
+
+## Building Manifests
+
+```bash
+sudo repoman manifest
+```
