@@ -17,3 +17,15 @@
 ```bash
 sudo repoman manifest
 ```
+
+## Install the repository
+
+```bash
+cat <<EOF > /etc/portage/repos.conf/iomonad.conf
+[iomonad-overlay]
+auto-sync = yes
+location = /usr/local/portage/overlays/iomonad
+sync-type = git
+sync-uri = https://github.com/iomonad/iomonad-overlay.git
+EOF
+```
