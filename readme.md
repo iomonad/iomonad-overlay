@@ -9,4 +9,4 @@
   width="80" height="80" align="right">
 </a><br>
 
-  > In short I store some packages that require a deep configuration or simply because they are experimental and are not present in the main portage tree.
+  > My overlay for custom packages
