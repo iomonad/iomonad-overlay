@@ -15,6 +15,7 @@
 ## Building Manifests
 
 ```bash
+repoman full -dx
 sudo repoman manifest
 ```
 
