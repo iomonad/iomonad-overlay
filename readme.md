@@ -30,3 +30,11 @@ sync-type = git
 sync-uri = https://github.com/iomonad/iomonad-overlay.git
 EOF
 ```
+
+## Install through Layman
+
+```bash
+sudo emerge -a layman
+
+layman -o https://raw.githubusercontent.com/iomonad/iomonad-overlay/master/overlay.xml -f -a iomonad-overlay
+```
