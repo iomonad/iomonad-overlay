@@ -1,1 +1,1 @@
-*.ebuild linguist-language=Gentoo Ebuild
+*.ebuild linguist-language='Gentoo Ebuild'
