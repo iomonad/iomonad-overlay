@@ -1,0 +1,2 @@
+*.ebuild linguist-detectable=true
+*.ebuild linguist-language=Gentoo Ebuild
