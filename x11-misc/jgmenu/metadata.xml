@@ -2,12 +2,13 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
   <maintainer type="person">
-        <email>me@trosa.io</email>
-        <description>Clement T.</description>
+    <email>iomonad@riseup.net</email>
+    <description>Clement T.</description>
   </maintainer>
   <longdescription>
     A simple, independent and contemporary-looking X11 menu, designed for scripting, ricing and tweaking.
   </longdescription>
-  <use>
-  </use>
+  <upstream>
+    <remote-id type="github">johanmalm/jgmenu</remote-id>
+  </upstream>
 </pkgmetadata>

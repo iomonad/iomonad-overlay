@@ -2,12 +2,7 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
   <maintainer type="person">
-        <email>me@trosa.io</email>
-        <description>Clement T.</description>
+    <email>iomonad@riseup.net</email>
+    <description>Clement T.</description>
   </maintainer>
-  <longdescription>
-    C library for Broadcom BCM 2835 as used in Raspberry Pi
-  </longdescription>
-  <use>
-  </use>
 </pkgmetadata>
