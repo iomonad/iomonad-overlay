@@ -6,7 +6,7 @@
 		<description lang="en">iomonad's portage overlay for Gentoo, and portage based systems.</description>
 		<homepage>https://github.com/iomonad/iomonad-overlay</homepage>
 		<owner type="person">
-			<email>me@trosa.io</email>
+			<email>iomonad@riseup.net</email>
 			<name>Clement Trosa</name>
 		</owner>
 		<source type="git">https://github.com/iomonad/iomonad-overlay.git</source>

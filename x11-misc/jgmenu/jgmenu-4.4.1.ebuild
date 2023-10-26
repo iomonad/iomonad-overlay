@@ -1,4 +1,4 @@
-# Copyright 1999-2021 Gentoo Authors
+# Copyright 1999-2023 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=7
@@ -14,4 +14,4 @@ SLOT="0"
 KEYWORDS="amd64 x86"
 
 IUSE=""
-RDEPEND=">=x11-base/xorg-x11-7.4-r3:0="
+RDEPEND=">=x11-base/xorg-server-21.1.8-r2:0="

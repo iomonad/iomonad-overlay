@@ -15,6 +15,7 @@
 ## Building Manifests
 
 ```bash
+sudo pkgdev manifest
 pkgcheck scan
 ```
 
