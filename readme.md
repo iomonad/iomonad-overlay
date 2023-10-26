@@ -1,7 +1,7 @@
 <h1> Iomonad's Gentoo Overlay
-  <a href="https://travis-ci.com/iomonad/iomonad-overlay" title="Build status">
-     <img src="https://www.travis-ci.org/iomonad/iomonad-overlay.svg?branch=master">
-  </a>
+	<a href="https://github.com/iomonad/iomonad-overlay/actions/workflows/repoman.yml" title="Build status">
+		<img src="https://github.com/iomonad/iomonad-overlay/actions/workflows/repoman.yml/badge.svg">
+	</a>
 </h1>
 
 <a href="https://github.com/iomonad/iomonad-overlay">
