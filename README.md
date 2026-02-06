@@ -11,6 +11,8 @@
 
   > My overlay for custom packages
 
+See [Pkgdev](https://wiki.gentoo.org/wiki/Pkgdev) Gentoo wiki.
+
 ## Building Manifests
 
 ```bash
